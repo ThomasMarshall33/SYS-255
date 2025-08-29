@@ -1,9 +1,44 @@
 ## lab 01 | environment setup 
 
-
-
-
-
-
-
 Step one: Open up the hardware page on the FW01 VM and change the network device (net1) to LAN 
+network device net 0 MAC=BC:24:11:1E:60:65
+network device net 1 MAC=BC:24:11:73:66:c8
+
+
+Your WAN and LAN are either missing network configuration information or contain default IP addresses. So we are adding the mac addresses 
+
+
+First, press 1 to configure the WAN and LAN, then make sure MAC addresses match up correctly to the previous MAC addresses, and also make sure vtnet0 is WAN and vtnet1 is LAN AND SAY NO TO SETTING UP VLANS FIRST!!!!!!!
+Control H if stuck with consle
+
+
+
+Wan setup
+Steps 
+Select 2 to Set interface IP Address
+Select 1 to pick the WAN interface
+Do not use DHCP for the WAN IPv4 address
+Enter your Assigned WAN IP from the Network Assignments sheet in Canvas
+You are using a 24 bit subnet mask
+For the WAN, your upstream gateway is 10.0.17.2
+Use the gateway as your IPv4 name server as well
+We will not be using IPv6, respond no when asked about DHCP.
+Press <ENTER> to bypass IPv6 configuration
+Do not enable DHCP server on WAN
+When asked about HTTP for the GUI, respond no (we want to use secure https)
+
+
+Lan setup
+Select 2 again to configure the other Interface's IP Address
+Select 2 to pick the LAN interface
+We are not using DHCP
+Your LAN IP Address is 10.0.5.2.  This is the same for every student.
+You are using a 24 bit subnet mask
+You do not have an upstream LAN gateway (you are the gateway for the LAN).  Press <ENTER>
+No DHCPv6
+Press <ENTER> to bypass IPv6 configuration
+Do not enable a LAN DHCP Server
+Do not revert to HTTP
+
+https://docs.google.com/document/d/1mnjUIZ1UqK6Klw2ZKlOs8Gf7nMETFqud6lb-eIyD2HE/edit?tab=t.0#heading=h.toba2x4y5lb2
+step we are on 
