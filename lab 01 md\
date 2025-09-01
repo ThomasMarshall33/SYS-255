@@ -50,9 +50,20 @@ hostname
 once you have confirmed everything is set with the proper commands you should go into internet and netwrok settings then go into ipv4 settings and change
 all the ip settings to proper ones 
 such as 
-ip address; 10.0.17.108
+ip address; 10.0.5.108
 subnet: 255.255.255.0
 default gateway:10.0.5.2
 perfered dns:10.0.5.2
+once all of that is done enter google and goto 
+10.0.5.2
+this will bring you to pfsense 
+Skip over the wizard and leave the setting checked to override the DNS server on PPP/WAN
+System Wizard: General Information
+Hostname: fw1-yourfirstname
+Domain: yourfirstname.local
+Primary DNS: 8.8.8.8
+System Wizard:  Configure WAN Interface
+RFC1918 Networks:  Uncheck "Block private networks from entering via WAN"
+
 
 
