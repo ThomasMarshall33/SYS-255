@@ -15,17 +15,17 @@ Control H if stuck with consle
 
 Wan setup
 Steps 
-Select 2 to Set interface IP Address
+Select 2 to Set the interface IP Address
 Select 1 to pick the WAN interface
 Do not use DHCP for the WAN IPv4 address
-Enter your Assigned WAN IP from the Network Assignments sheet in Canvas
-You are using a 24 bit subnet mask
+Enter your assigned WAN IP from the Network Assignments sheet in Canvas
+You are using a 24-bit subnet mask
 For the WAN, your upstream gateway is 10.0.17.2
 Use the gateway as your IPv4 name server as well
-We will not be using IPv6, respond no when asked about DHCP.
+We will not be using IPv6; respond no when asked about DHCP.
 Press <ENTER> to bypass IPv6 configuration
-Do not enable DHCP server on WAN
-When asked about HTTP for the GUI, respond no (we want to use secure https)
+Do not enable the DHCP server on the WAN
+When asked about HTTP for the GUI, respond no (we want to use secure HTTPS)
 
 
 Lan setup
@@ -33,12 +33,26 @@ Select 2 again to configure the other Interface's IP Address
 Select 2 to pick the LAN interface
 We are not using DHCP
 Your LAN IP Address is 10.0.5.2.  This is the same for every student.
-You are using a 24 bit subnet mask
+You are using a 24-bit subnet mask
 You do not have an upstream LAN gateway (you are the gateway for the LAN).  Press <ENTER>
 No DHCPv6
 Press <ENTER> to bypass IPv6 configuration
 Do not enable a LAN DHCP Server
 Do not revert to HTTP
 
-https://docs.google.com/document/d/1mnjUIZ1UqK6Klw2ZKlOs8Gf7nMETFqud6lb-eIyD2HE/edit?tab=t.0#heading=h.toba2x4y5lb2
-step we are on 
+Once we did this, we had to give admin access to the account, so you must go to lusrmgr.msc and then go to users and add one and type username as
+thomas.-loc then once you have the user, you have to double click it, then go to member of, then change add administrator to the text box you must
+also click the check box to change it so you dont have to change so password never expires 
+then u need to logout and back in 
+once logged back in go into command prompt and type the following commands to make sure you have set it up properly 
+whoami
+hostname
+once you have confirmed everything is set with the proper commands you should go into internet and netwrok settings then go into ipv4 settings and change
+all the ip settings to proper ones 
+such as 
+ip address; 10.0.17.108
+subnet: 255.255.255.0
+default gateway:10.0.5.2
+perfered dns:10.0.5.2
+
+
