@@ -1,3 +1,22 @@
-activity directory is a database 
+Active Directory is a database 
+
 full of objects 
-  
+
+Everything in the object is a class, and everything you fill in is unique 
+
+Everything that defines a class is a coder who built an object 
+
+users and computers main two objects 
+
+AD(enviorment) - cire services 
+* active directory domain services AD(active directory)DS(domian server)
+
+DNS (if DNS is not available, Microsoft will install it during the AD setup 
+
+DHCP
+
+Domain is an area of jursdriction(YOU OWN IT AND ARE RESPONSIBLE FOR EVERYTHING IN IT), e.g., cyber.local
+
+Two diffrent kinds of domains, but they mean the same thing it's jurisdictional 
+
+
