@@ -1,0 +1,32 @@
+Password: M6h3dpog6769
+Server manger set to start 
+start up network to make changes
+Set the following:
+IP Address:  10.0.5.5
+Netmask: 255.255.255.0
+Gateway 10.0.5.2 
+DNS 10.0.5.2
+Discoverable option.  If this dialog shows up, select Yes for those systems on your LAN.
+Time should be set to UTC-5:00 Eastern Time (US & Canada)
+Computer name:  ad01-thomasmarshall (make sure you get this right)
+
+Using a command or powershell prompt, double check that your hostname has been set and that you have external connectivity as shown below.
+use commands 
+* whoami
+* ping google.com
+Open Server Manager.  From the Manage menu, Select Add Roles and Features
+
+Select Active Directory Domain Services->Add Features.  Pick Active Directory Domain 
+Click next until you reach server roles
+Select ACTIVE DIRECTORY DOMAIN 
+once seclected just click next untill install(play clash while it installs)
+once installation is done clcik close and at the top right there will be a flag click on flag then press promote this server to a domain controller 
+Make absolutely sure you have set the hostname before moving forward with promoting this system.
+once clicking on promotion you must click add a new forest then follow these steps 
+Name this forest yourname.local, where yourname is your first name.
+Enter a DSRM password.  This password is used to recover the directory in case of error.  You would use it in production if things went terribly wrong.
+Password for DSRM(password i put in after setting up name(thomas.local) on new forest 
+Password for DSRM: 9676gopd3h6M
+Because we gave our environment a .local top level domain(TLD), an error is indicated during installation.  Valid top level domains are domains like .com, .gov, .edu, .net.  Because this is an internal domain, we will leave it as is.  
+The naming of local domains is the subject of many debates among systems administrators.
+password is enter, keep clicking next until installation
