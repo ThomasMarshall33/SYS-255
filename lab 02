@@ -36,7 +36,37 @@ now open up powershell and enter the following commads
 -ping 10.0.5.2
 -ping fw01-thomas
 all comands should work exepct the last one the last one should say could not find fw01-thomas cgeck name and try agaibn 
-now open up server manager and goto DNS then right click on the dns that says ADD01-THOMASMARSHwith ipv4 of 10.0.5.5 and click dns manager 
-once you are in dns manager click the arrow which should show more options then click onto foward lookup zones then do the same for thomas.local to have the drop down menu appear
-then you must right click on thomas.local then click new host(A or AAAA)
-the type in the name which should be fw01-thomas
+now open up server manager and goto DNS then right click on the dns that says ADD01-THOMASMARSH with ipv4 of 10.0.5.5 and click dns manager 
+once you are in dns manager click the arrow which should show more options then  right click onto reverse  lookup zone
+add new zone follow the defaults, and add a Network ID for 10.0.5.
+
+then once that is done goto thomas.local 
+then click on fw01-thomas, goto properties, check ptr off then apply then recheck and apply, and do the same for ad01-thomasmarshall
+The reverse dns entry for fw01 and ad01 should now be in the 5.0.10 reverse lookup zone.  You may need to refresh the view:
+
+once you have confiermened goto AD DS and right click ad01-thomas and goto active directory users and computers 
+Under the Domain's user folder, add a new User.
+This user (thomas.marshall-adm) will be a Domain Administrator and will have a distinct suffix (ADM) to show this.
+Uncheck user must change password at next login.
+Password:OEtcq33
+Add this user to the Domain Admins Group by right clicking on the new user 
+must  uppercase D and A
+
+Create a non-privileged account (Skip the addition to Domain Admins) for user thomas.marshall
+
+From this point forward you will login using your AD thomas.marshall or thomas.marshall-adm accounts depending on the privileges you need, and not the local accounts.
+
+Password for non admin:33qctEO
+Uncheck user must change password at next login.
+
+Set wks01's DNS to 10.0.5.5 (ad01's address), since our DNS has those 2 new A and PTR records created earlier.
+now goto powershell and run these commands 
+-nslookup 10.0.5.2
+which should show the name of ur local which are u are gonna run the next command on in my case it was fw1-thomas.thomas.local
+-nslookup fw1-thomas.thomas.local
+-ping fw1-thomas.thomas.local
+now goto Control pannel, then System and Security, then system then change settings then click change under the settigns 
+then check domain and type thomas
+and enter the password and user which is 
+User:thomas.marshall-adm
+Password:OEtcq33
