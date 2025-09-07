@@ -29,4 +29,14 @@ Password for DSRM(password i put in after setting up name(thomas.local) on new f
 Password for DSRM: 9676gopd3h6M
 Because we gave our environment a .local top level domain(TLD), an error is indicated during installation.  Valid top level domains are domains like .com, .gov, .edu, .net.  Because this is an internal domain, we will leave it as is.  
 The naming of local domains is the subject of many debates among systems administrators.
-password is enter, keep clicking next until installation
+password is enter, keep clicking next until installation 
+once logged back on you should have a new DNS, and it should point to 127.0.0.1 To check, open Server Manager, then go to local server, then click Ethernet 
+now open up powershell and enter the following commads 
+-hostname
+-ping 10.0.5.2
+-ping fw01-thomas
+all comands should work exepct the last one the last one should say could not find fw01-thomas cgeck name and try agaibn 
+now open up server manager and goto DNS then right click on the dns that says ADD01-THOMASMARSHwith ipv4 of 10.0.5.5 and click dns manager 
+once you are in dns manager click the arrow which should show more options then click onto foward lookup zones then do the same for thomas.local to have the drop down menu appear
+then you must right click on thomas.local then click new host(A or AAAA)
+the type in the name which should be fw01-thomas
