@@ -1,3 +1,35 @@
 https://www.google.com/imgres?q=unix%20timeline&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fc%2Fcd%2FUnix_timeline.en.svg%2F952px-Unix_timeline.en.svg.png&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AUnix_timeline.en.svg&docid=geeGys-DXDSVmM&tbnid=pFsdZEDPIQrZ-M&vet=12ahUKEwii5PLXmsyPAxWuMVkFHW7EG80QM3oECBoQAA..i&w=952&h=665&hcb=2&ved=2ahUKEwii5PLXmsyPAxWuMVkFHW7EG80QM3oECBoQAA
 ^^^^
 unix henealogy tree
+created by Linus Torvalds(linux stands for "Linus's UNIX") in '91
+
+origianlly contained just the kernel a compiler (gcc'87), bash ('89), and an utility application 
+
+Kernel implements multitasking and multiuser functionality manages hardware allocates memory and enables applications to run 
+
+distrowatch.com
+
+DES + Roles of linux 
+Servers 
+NFS, SSH, HTPP/S, DHCP, Kerberos, DNS
+
+Netowrk applicanes
+Firewall
+IDS/IPS
+
+
+What guids open seource licensing?
+Free resitribution
+source code 
+intregrity of the authors source code
+distribtution of license 
+License must not be specific to a product 
+license must not restirct other software
+license must be technology-netural 
+
+proxmox-opensource
+
+
+why open source is important 
+Often major source of innovation
+community approach developing emerging standards 
