@@ -1,1 +1,18 @@
+start linux and sign in 
+user:champuser
+pass: Ch@mpl@1n!25
+then type nmtui
+then change ipv4 from automatic to manual then input these 
+
+IP Address and Netmask 
+10.0.5.3/24--MUST PUT /24 AT END
+Gateway
+10.0.5.2
+DNS
+10.0.5.5
+Search Domain
+yourname.local
+Hostname
+dhcp01-yourname
+and where it says automatically connect make sure it has an x
 
