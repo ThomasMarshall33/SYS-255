@@ -31,4 +31,11 @@ usermod -aG wheel username - wheel is the administrator group on os
 exit - exits the user
 clear - clears all commands on the screen
 
+to add dhcp01 to the ad01 what you must do is go onto server manager and goto dns then right click on ad01-thomas and goto dns manager 
+then drop the foward lookupzone menu down and right click thomas.local 
+goto new host and enter the follwing 
+dhcp01-thomas
+ip address: 10.0.5.3
+MAKE SURE PTR IS CHECKED
+
 
