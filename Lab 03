@@ -1,4 +1,4 @@
-start linux and sign in 
+Start Linux and sign in 
 user:champuser
 pass: Ch@mpl@1n!25
 then type nmtui
@@ -12,7 +12,17 @@ DNS
 10.0.5.5
 Search Domain
 yourname.local
-Hostname
-dhcp01-yourname
 and where it says automatically connect make sure it has an x
+If it gives u an  error because of no name make sure to put sudo before nmtui
+
+
+set Hostname
+dhcp01-yourname
+
+
+TYPE SUDO FOR ALOT OF THESE 
+good commands 
+ip a 
+useradd name
+
 
