@@ -38,7 +38,7 @@ now open up PowerShell and enter the following commands
 all commands should work except the last one the last one should say could not find fw01-thomas cgeck name and try agaibn 
 now open up server manager and goto DNS then right click on the dns that says ADD01-THOMASMARSH with ipv4 of 10.0.5.5 and click dns manager 
 once you are in dns manager click the arrow which should show more options then  right click onto reverse  lookup zone
-add new zone follow the defaults, and add a Network ID for 10.0.5.
+add new zone follow the defaults, and add a Network ID for 10.0.5.5
 
 then once that is done goto thomas.local 
 then click on fw01-thomas, goto properties, check ptr off then apply then recheck and apply, and do the same for ad01-thomasmarshall
