@@ -21,8 +21,14 @@ dhcp01-yourname
 
 
 TYPE SUDO FOR ALOT OF THESE 
+
+
 good commands 
 ip a 
-useradd name
+useradd name - creates a new user account on a Linux or Unix-like system with the specified name e.g, useradd thomas 
+passwd user - creates a password for any user e.g., passwd thomas
+usermod -aG wheel username - wheel is the administrator group on os 
+exit - exits the user
+clear - clears all commands on the screen
 
 
