@@ -31,6 +31,18 @@ passwd user - creates a password for any user e.g., passwd thomas
 usermod -aG wheel username - wheel is the administrator group on os 
 exit - exits the user
 clear - clears all commands on the screen
+pwd - Shows the current directory
+cd - Changes the directory. When using this command, you navigate up to different directories.
+cd /home - Brings you to the home directory
+cd .. - Brings you to the parent directory relative to where you are in the directory structure.
+ls -l - Lists information about the files and directories in the current directory.
+mkdir - Makes a new directory.
+yum - install will install a packet 
+sudo - Superuser do, elevates permissions of the user as a "one time" thing.
+groups - Shows the groups that the current user is a member of.
+sudo -i - Allows you to act as the root user for a longer amount of time
+exit - Logouts of the current user.
+whoami - Displays current user.
 
 to add dhcp01 to the ad01 what you must do is go onto server manager and goto dns then right click on ad01-thomas and goto dns manager 
 then drop the foward lookupzone menu down and right click thomas.local 
