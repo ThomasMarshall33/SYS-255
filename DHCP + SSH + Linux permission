@@ -1,1 +1,17 @@
+Life without DHCP
+manual assignment of IP addresses for all servers + printers 
+Some workstations don't need a static/permanent address
+accounting and ip reconciliation (big spreadsheet)
+less auto conif == more manual conif 
+Layer 2 and 3 troubleshooting 
+scope 
+Range of IPs a DHCP server can lease out 
 
+lease
+Temp assignment of IP for a DHCP client managed by a DHCP server 
+t1 = 50% of lease, t2 = 87.5% of lease 
+
+bootp 
+older protocol, which DHCP replaces with extra features 
+lease 
+network settings/options 
