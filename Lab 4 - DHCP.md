@@ -22,11 +22,19 @@ And double-click PuTTY and it should be in there
 
 then once PuTTY is installed(i will be refreing to it as pu from now on for ease) type the host name as dhcp01-thomas 
 
+once in pu ype sudo -i 
+
+then cp /etc/dhcp/dhcpd.conf /etc/dhcp/dhcpd.conf.bak
+then vi/etc/dhcp/dhcpd.cof
+then enter all of this exactly how the image is 
+
 
 <img width="906" height="637" alt="image" src="https://github.com/user-attachments/assets/38898c50-0d8d-444f-8e04-8b3c2d8a45c5" />
 
+<img width="813" height="606" alt="image" src="https://github.com/user-attachments/assets/6c274166-1a70-42f1-83f7-3d44525aeaf2" />
 
 
+once inputed all info press esc then type :wq 
 
 What is PuTTY
 PuTTY is a free SSH and Telnet client for Windows. It's a terminal emulator that allows you to:
