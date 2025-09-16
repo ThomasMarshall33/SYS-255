@@ -1,0 +1,39 @@
+First, what you will need to do is download PuTTY, start up everything, then log in to ad01-thomas.marshall 
+
+To download this program you have to go to Explorer 
+
+To do this, go into file explorer and go to this pc, then Local Disk C 
+
+Then the  program files(x86) and Internet Explorer will be there 
+
+Look up PuTTY and click the link that is by chiark 
+
+Download the top link. This should be called something like
+
+putty-64bit - 0.83-installer.msi 
+
+Now just follow the defaults for PuTTY
+
+Once you have downloaded it you will need to open PuTTY
+
+To do this you are gonna follow the same steps to open Internet Explorer, but instead of Program Files (x86), go into just Program Files
+
+And double-click PuTTY and it should be in there 
+
+then once PuTTY is installed(i will be refreing to it as pu from now on for ease) type the host name as dhcp01-thomas 
+
+
+
+
+
+
+What is PuTTY
+PuTTY is a free SSH and Telnet client for Windows. It's a terminal emulator that allows you to:
+
+Connect remotely to servers and network devices
+Access command-line interfaces on Linux/Unix systems
+Manage routers, switches, and other network equipment
+Execute commands on remote systems securely
+
+It's commonly used by network administrators and IT professionals for remote system management and configuration.
+
