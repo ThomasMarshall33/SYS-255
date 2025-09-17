@@ -49,6 +49,14 @@ once done run these commands
 <img width="401" height="190" alt="image" src="https://github.com/user-attachments/assets/f02a339c-db50-49ab-abf9-1e0e59a24c1c" />
 
 
+after you finsih this goto wks01 and change the ethernet 
+should look like this 
+<img width="1398" height="996" alt="image" src="https://github.com/user-attachments/assets/34143897-8a69-46cf-a5c2-abb0c40dcebb" />
+
+
+
+
+
 
 What is PuTTY
 PuTTY is a free SSH and Telnet client for Windows. It's a terminal emulator that allows you to:
@@ -59,4 +67,5 @@ Manage routers, switches, and other network equipment
 Execute commands on remote systems securely
 
 It's commonly used by network administrators and IT professionals for remote system management and configuration.
+
 
