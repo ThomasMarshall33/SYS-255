@@ -30,11 +30,20 @@ then enter all of this exactly how the image is
 
 
 <img width="906" height="637" alt="image" src="https://github.com/user-attachments/assets/38898c50-0d8d-444f-8e04-8b3c2d8a45c5" />
+once inputed all info press esc then type :wq 
+
+cat /etc/dhcp/dhcpd.conf
+after that command do these two 
+systemctl start dhcpd
+systemctl enable dhcpd 
+enabled it on startup which you should do 
+
 
 <img width="813" height="606" alt="image" src="https://github.com/user-attachments/assets/6c274166-1a70-42f1-83f7-3d44525aeaf2" />
 
 
-once inputed all info press esc then type :wq 
+
+
 
 What is PuTTY
 PuTTY is a free SSH and Telnet client for Windows. It's a terminal emulator that allows you to:
