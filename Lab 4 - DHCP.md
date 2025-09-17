@@ -42,6 +42,11 @@ enabled it on startup which you should do
 <img width="813" height="606" alt="image" src="https://github.com/user-attachments/assets/6c274166-1a70-42f1-83f7-3d44525aeaf2" />
 
 
+now you Configuring the Firewall to allow incoming DHCP requests
+to do this you must type these commands 
+<img width="639" height="90" alt="image" src="https://github.com/user-attachments/assets/22cbaf17-1fb0-4b6a-a888-63e8bc0fc13e" />
+once done run these commands 
+<img width="401" height="190" alt="image" src="https://github.com/user-attachments/assets/f02a339c-db50-49ab-abf9-1e0e59a24c1c" />
 
 
 
