@@ -57,6 +57,20 @@ should look like this
 
 
 
+How to change lease time 
+go into dhcp and then type out sudo vi /etc/dhcp/dhcpd.conf
+once in there you have to add these 
+<img width="474" height="187" alt="image" src="https://github.com/user-attachments/assets/2f918a8e-b547-4d16-8faa-50d4cea555e2" />
+by pressing insert to type then once you have done that press esc then :wq
+
+
+
+
+
+
+
+
+
 
 What is PuTTY
 PuTTY is a free SSH and Telnet client for Windows. It's a terminal emulator that allows you to:
