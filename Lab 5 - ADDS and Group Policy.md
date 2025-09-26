@@ -33,7 +33,8 @@ The first thing we want to do is create an organizational unit called "SYS255",&
 * <img width="568" height="349" alt="image" src="https://github.com/user-attachments/assets/33b15bec-1255-4329-89db-61f675648111" />
 * tip if you cant find something try typing the first part of the name for example I couldnt find domain computers so i just typed domain and everthing that had domain in it poped up making it much easier to fid what i was looking for
 * Step 4.  Delegation tab -> Advanced (Uncheck Apply Group Policy, Select Deny)
-* 
+* <img width="852" height="625" alt="image" src="https://github.com/user-attachments/assets/6030a4c0-40fc-4ccc-a7e6-59d0a84f0b3d" />
+
 
 
 
