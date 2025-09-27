@@ -34,7 +34,17 @@ The first thing we want to do is create an organizational unit called "SYS255",&
 * tip if you cant find something try typing the first part of the name for example I couldnt find domain computers so i just typed domain and everthing that had domain in it poped up making it much easier to fid what i was looking for
 * Step 4.  Delegation tab -> Advanced (Uncheck Apply Group Policy, Select Deny)
 * <img width="852" height="625" alt="image" src="https://github.com/user-attachments/assets/6030a4c0-40fc-4ccc-a7e6-59d0a84f0b3d" />
+* Once we have defined who this policy applies to, we are now ready to author what the group policy does.
+* <img width="947" height="713" alt="image" src="https://github.com/user-attachments/assets/2c0cddc5-4f45-42c5-a188-68164b305c98" />
 
+
+* This is the bulk of the group policy editor on a Windows server where we can define computer and user settings. Remember: COMPUTER settings are applied when workstations turn on, where USER settings apply after users login. 
+
+* There are a handful of settings here that we can define and really control the experience of the workstation in this domain. This is commonly used to control things such as, but not limited to: desktop backgrounds, browser settings, password policies, network shares, printers, redirected folders, Microsoft Bitlocker, application allowed list policies, logon scripts, etc.
+
+* <img width="1001" height="670" alt="image" src="https://github.com/user-attachments/assets/3c55697c-b712-4a68-adeb-10855314a963" />
+
+* <img width="1017" height="756" alt="image" src="https://github.com/user-attachments/assets/ff0cbe11-9b6d-486e-9bcb-5172e2b2e113" />
 
 
 
