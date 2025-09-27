@@ -46,6 +46,18 @@ The first thing we want to do is create an organizational unit called "SYS255",&
 
 * <img width="1017" height="756" alt="image" src="https://github.com/user-attachments/assets/ff0cbe11-9b6d-486e-9bcb-5172e2b2e113" />
 
+* The default display of previously logged on users is widely considered a security vulnerability, particularly in shared systems.  The next policy will turn off the default display of previously logged-in users
+
+* <img width="947" height="714" alt="image" src="https://github.com/user-attachments/assets/47bdfa8f-cd9c-4333-86f5-2996d268ec32" />
+
+* <img width="950" height="684" alt="image" src="https://github.com/user-attachments/assets/5e472de3-8f4d-4a04-818f-d78357d6cae9" />
+
+* <img width="935" height="702" alt="image" src="https://github.com/user-attachments/assets/c6ef4528-3dd9-445d-913d-10a8f623344b" />
+
+* <img width="956" height="723" alt="image" src="https://github.com/user-attachments/assets/caa6af58-cb12-4820-9660-1729385a9056" />
+
+* 
+
 
 
 
