@@ -13,3 +13,8 @@ MESSED UP LAST NAME INSTEAD OF TWO LL ITS K SO IF ANYTHING REQUIRES THIS INFORMA
 
 dhcp-thomas
 user thomas password: jack 
+
+
+
+NAME OF EACH ENVIORMENT
+wks01-thomas
