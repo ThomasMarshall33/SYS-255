@@ -1,1 +1,8 @@
+* Apache is a large open source umbrella project of which the httpd server (httpd) is just a single but large component 
+* its free 
+* runs on Linux but can be coerced to run on Windows 
+* Web Default root directory 
+* /var/www/hml
+* Port 80 (tcp)
 
+#REALMD
