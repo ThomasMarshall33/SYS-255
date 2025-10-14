@@ -5,7 +5,7 @@
 * /var/www/hml
 * Port 80 (tcp)
 
-* REALMD
+# REALMD
 
 * Quite simply, it allows us to leverage the centralized authentication of AD for our Linux systems 
 * Each Linux system has its own local /etc/passwd and /etc/shadow
