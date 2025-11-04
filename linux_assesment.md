@@ -26,13 +26,12 @@ This guide covers the complete installation process for Joomla on Rocky Linux 9,
 nmcli device status
 
 
-#NMTUI 
-# Configure static IP (adjust interface name, typically ens33 or ens192)
-sudo nmcli con mod ens33 ipv4.addresses 10.0.5.11/24
-sudo nmcli con mod ens33 ipv4.gateway 10.0.5.2
+# JUS USE NMTUI also use sudo before it 
+# Configure static IP )
+ 10.0.5.11/24
+gateway 10.0.5.2
 sudo nmcli con mod ens33 ipv4.dns "192.168.1.Y"  # Your AD DC IP
-sudo nmcli con mod ens33 ipv4.method manual
-sudo nmcli con up ens33
+MAke sure the x is checked 
 ```
 
 ### Verify Network Connectivity
