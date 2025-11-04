@@ -18,6 +18,14 @@ This guide covers the complete installation process for Joomla on Rocky Linux 9,
 
 ---
 
+
+## Important Notes
+Replace yourdomain.com with your actual domain
+Replace IP addresses with your network's configuration
+Replace YourStrongPassword123! with actual strong passwords
+Make sure firewall allows HTTP/HTTPS traffic
+Document all passwords securely!
+
 ## Phase 1: Network Configuration
 
 ### Configure Static IP (if needed)
@@ -256,13 +264,6 @@ Login with credentials created above
 
 ---
 
-## Important Notes
-
-- Replace `yourdomain.com` with your actual domain
-- Replace IP addresses with your network's configuration
-- Replace `YourStrongPassword123!` with actual strong passwords
-- Make sure firewall allows HTTP/HTTPS traffic
-- Document all passwords securely!
 
 ---
 
